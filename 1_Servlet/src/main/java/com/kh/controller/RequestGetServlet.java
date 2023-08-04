@@ -132,6 +132,12 @@ public class RequestGetServlet extends HttpServlet {
 				
 		out.println("<head>");
 		
+		out.println("<title>");
+		
+		out.println("Servlet_GetResponsePage");
+		
+		out.println("</title>");
+		
 		out.println("<style>");
 		
 		out.println("h2 {color:red}");
